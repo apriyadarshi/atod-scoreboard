@@ -1,0 +1,296 @@
+
+    /**
+    * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+    * http://cssreset.com
+    */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+    body {
+    line-height: 1;
+    }
+    ol, ul {
+    list-style: none;
+    }
+    blockquote, q {
+    quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    }
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+body {
+    background-color:#232425;
+    color:#C4C0C0;
+    font-family:'Open Sans',​sans-serif;
+}
+td {
+    
+    text-align:center;
+    vertical-align:middle;
+}
+.cHI {
+     background-repeat: no-repeat;
+     background-size: 100px 50px;
+     background-position:center;
+     height:50px;
+     width:100px;
+     padding:0px;
+     border:0px;
+}
+.tblTeamScoreDetails {
+    table-layout:fixed;
+}
+.tblTeamScoreDetails td {
+    padding:5px;
+}
+.tblItems td {
+    height:30px;
+    width:40px;
+    background-repeat: no-repeat;
+    background-size: 40px 30px;
+    padding:0px;
+    border:0px;
+}
+
+.teamKills {
+    width:100px;
+}
+
+.cPN {
+    width:200px;
+    text-align:left;
+    max-width:200px;/*required for overflow to work in a table*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.hdrNumbers {
+    width:50px;
+}
+
+.tblTeams {
+    width: 100%;
+    font-size:25px;
+}
+
+.tblTeams td {
+    width: 20%;
+}
+.tblTeams tr {
+    height:40px;
+}
+#cellTeams {
+    background-color:#141C1F;
+    padding: 10px;
+}
+.tblScoreboard {
+    border-collapse:collapse;
+}
+.divContainer {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 0.87), 3px 0 5px -3px rgba(1, 1, 1, 0.87);
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    width:820px;
+}
+#cellTournament {
+    background-color:black;
+    border-radius: 10px 10px 0px 0px;
+    height:80px;
+    font-size:30px;
+    text-align:center;
+    vertical-align:middle;
+}
+.tblTeamScoreDetails_Radiant tr {
+    background-color:rgba(22,91,26,0.2);
+}
+.tblTeamScoreDetails_Dire tr {
+    background-color:rgba(95,0,0,0.2);
+}
+.teamScoreHeader {
+    font-size: 20px;
+    height: 50px;
+}
+.teamScoreHeader td{
+    vertical-align:middle;
+}
+
+.tblBuildingStatus {
+    table-layout:fixed;
+}
+
+    .tblBuildingStatus td {
+        width:25px;
+        height:25px;
+    }
+
+.tblBuildingStatus_radiant td {
+    border: 1px solid rgb(22,91,26);
+}
+
+.tblBuildingStatus_dire td{
+    border: 1px solid rgb(95,0,0);
+}
+.direBldUp {
+    background-color:rgb(95,0,0);
+}
+.direBldDown {
+    
+}
+.radiantBldUp {
+    background-color:rgb(22,91,26);
+}
+.radiantBldDown {
+    
+}
+/*
+    Hero Images
+*/
+.heroKunkaa {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_full.png);
+}
+.heroTreantProtector {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/treant_full.png);
+}
+.heroSlark {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/slark_full.png);
+}
+.heroShadowDemon {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/shadow_demon_full.png);
+}
+.heroDarkSeer {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_full.png);
+}
+.heroBatrider {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/batrider_full.png);
+}
+.heroOutworldDevourer {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/obsidian_destroyer_full.png);
+}
+.heroVisage {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/visage_full.png);
+}
+.heroDisruptor {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_full.png);
+}
+.heroViper {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/heroes/viper_full.png);
+}
+
+/*
+    Item Images
+*/
+
+.itmBottle {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/bottle_lg.png);
+}
+
+.itmMagicWand {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/magic_wand_lg.png);
+}
+.itmDrums {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/ancient_janggo_lg.png);
+}
+.itmPhaseBoots {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/phase_boots_lg.png);
+}
+.itmBKB {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/black_king_bar_lg.png);
+}
+.itmTP {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/tpscroll_lg.png);
+}
+.itmArcaneBoots {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/arcane_boots_lg.png);
+}
+.itmBlinkDagger {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/blink_lg.png);
+}
+.itmUltimateOrb {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/ultimate_orb_lg.png);
+}
+.itmPowerTreads {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/power_treads_lg.png);
+}
+.itmMidas {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/hand_of_midas_lg.png);
+}
+.itmForceStaff {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/force_staff_lg.png);
+}
+.itmGem {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/gem_lg.png);
+}
+.itmUrn {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/urn_of_shadows_lg.png);
+}
+.itmMek {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/mekansm_lg.png);
+}
+.itmBrownBoots {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/boots_lg.png);
+}
+.itmSoulRing {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/boots_lg.png);
+}
+itmShivasGuard {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/shivas_guard_lg.png);
+}
+.itmTranquilBoots {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/tranquil_boots_lg.png);
+}
+.itmOgreClub {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/ogre_axe_lg.png);
+}
+.itmSmoke {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/smoke_of_deceit_lg.png);
+}
+.itmNullTalisman {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/null_talisman_lg.png);
+}
+.itmObserverWard {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/ward_observer_lg.png);
+}
+.itmMedallion {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/medallion_of_courage_lg.png);
+}
+.itmPointBooster {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/point_booster_lg.png);
+}
+.itmMithrilHammer {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/mithril_hammer_lg.png);
+}
+.itmRingOfAquilla {
+    background-image: url(http://cdn.dota2.com/apps/dota2/images/items/ring_of_aquila_lg.png);
+}
+
