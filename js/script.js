@@ -4,9 +4,9 @@ var itemCSSMap = {
 	3: 'itmMagicWand',
 };
 
-// A full version of this JSON will be served for APIs requesting full data
 
-//Send changed data only
+
+//Send coplete data always
 var jsonInputForRefresh = {
 	MID: ID1, //The match id - will be sent with each request to server to get desired match data
 	T:3057, //Last data update
